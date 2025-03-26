@@ -12,9 +12,7 @@ client_script  {
 }
 
 server_script  {
-  "server/**/*.lua"
+  "server/**/*.lua",
+  'config_shared.lua'
 }
 
-files {
-  'config_shared.lua',
-}
